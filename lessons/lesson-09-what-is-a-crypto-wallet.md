@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 3
-lesson: 9
-title: "What is a Crypto Wallet?"
-description: "Understanding crypto wallets as key managers, not money holders"
----
-
 # What is a Crypto Wallet?
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_09/crypto-fundamentals_09_header.png)

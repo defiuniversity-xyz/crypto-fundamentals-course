@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 1
-lesson: 3
-title: "Global and Permissionless"
-description: "How cryptocurrency works for anyone, anywhere, without needing approval"
----
-
 # Global and Permissionless
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_03/crypto-fundamentals_03_header.png)

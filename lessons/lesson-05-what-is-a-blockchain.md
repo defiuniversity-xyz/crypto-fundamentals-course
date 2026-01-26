@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 2
-lesson: 5
-title: "What is a Blockchain?"
-description: "Understanding blockchain as a shared, unchangeable record book"
----
-
 # What is a Blockchain?
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_05/crypto-fundamentals_05_header.png)

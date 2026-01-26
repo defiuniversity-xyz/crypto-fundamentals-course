@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 1
-lesson: 2
-title: "True Ownership Explained"
-description: "Understanding the difference between custodial and self-custodial money"
----
-
 # True Ownership Explained
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_02/crypto-fundamentals_02_header.png)

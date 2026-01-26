@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 3
-lesson: 10
-title: "Public Keys and Addresses"
-description: "Understanding the 'email address' of cryptocurrency"
----
-
 # Public Keys and Addresses
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_10/crypto-fundamentals_10_header.png)

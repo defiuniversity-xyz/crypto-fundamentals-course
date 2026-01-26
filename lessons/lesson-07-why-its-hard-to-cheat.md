@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 2
-lesson: 7
-title: "Why It's Hard to Cheat"
-description: "Understanding the security guarantees that make blockchain trustworthy"
----
-
 # Why It's Hard to Cheat
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_07/crypto-fundamentals_07_header.png)

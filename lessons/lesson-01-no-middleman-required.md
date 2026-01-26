@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 1
-lesson: 1
-title: "No Middleman Required"
-description: "How cryptocurrency enables direct person-to-person transactions"
----
-
 # No Middleman Required
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_01/crypto-fundamentals_01_header.png)

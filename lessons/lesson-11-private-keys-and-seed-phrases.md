@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 3
-lesson: 11
-title: "Private Keys and Seed Phrases"
-description: "Understanding the master key to all your crypto"
----
-
 # Private Keys and Seed Phrases
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_11/crypto-fundamentals_11_header.png)

@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 3
-lesson: 12
-title: "Types of Wallets"
-description: "Understanding the spectrum from convenient to ultra-secure"
----
-
 # Types of Wallets
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_12/crypto-fundamentals_12_header.png)

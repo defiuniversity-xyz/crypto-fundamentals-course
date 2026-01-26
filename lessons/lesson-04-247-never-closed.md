@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 1
-lesson: 4
-title: "24/7 Never Closed"
-description: "How cryptocurrency operates continuously without banking hours or holidays"
----
-
 # 24/7 Never Closed
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_04/crypto-fundamentals_04_header.png)

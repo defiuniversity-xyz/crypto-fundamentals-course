@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 2
-lesson: 6
-title: "How Transactions Get Verified"
-description: "Understanding consensus mechanisms without the technical complexity"
----
-
 # How Transactions Get Verified
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_06/crypto-fundamentals_06_header.png)

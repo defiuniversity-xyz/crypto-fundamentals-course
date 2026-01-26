@@ -1,11 +1,3 @@
----
-course: crypto-fundamentals
-module: 2
-lesson: 8
-title: "Different Blockchains Explained"
-description: "Understanding why multiple blockchains exist and how they differ"
----
-
 # Different Blockchains Explained
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_08/crypto-fundamentals_08_header.png)
