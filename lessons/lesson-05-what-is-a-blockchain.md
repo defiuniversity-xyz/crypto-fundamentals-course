@@ -7,6 +7,7 @@ description: "Understanding blockchain as a shared, unchangeable record book"
 ---
 
 # What is a Blockchain?
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_05/crypto-fundamentals_05_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding blockchain as a shared, unchangeable record book"
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_05/crypto-fundamentals_05_inline_analogy.png)
+
 Imagine a Google Doc that:
 - Everyone in the world can view
 - Anyone can add new lines (following rules)
@@ -35,6 +37,7 @@ Instead of a bank keeping private records of who has what, the blockchain is a p
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_05/crypto-fundamentals_05_infographic.png)
+
 **Block:** A collection of transactions bundled together. Like a page in a ledger book. Every 10 minutes (Bitcoin) or few seconds (other blockchains), a new "page" gets added.
 
 **Chain:** Each new block includes a reference to the previous block, creating a chain. Block 100 references Block 99, which references Block 98, and so on back to the first block.

@@ -7,6 +7,7 @@ description: "How cryptocurrency works for anyone, anywhere, without needing app
 ---
 
 # Global and Permissionless
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_03/crypto-fundamentals_03_header.png)
 
 
@@ -18,6 +19,7 @@ description: "How cryptocurrency works for anyone, anywhere, without needing app
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_03/crypto-fundamentals_03_inline_analogy.png)
+
 Remember getting a library card as a kid? You needed:
 - A parent to sign for you
 - Proof of address

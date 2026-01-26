@@ -7,6 +7,7 @@ description: "How cryptocurrency enables direct person-to-person transactions"
 ---
 
 # No Middleman Required
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_01/crypto-fundamentals_01_header.png)
 
 
@@ -18,6 +19,7 @@ description: "How cryptocurrency enables direct person-to-person transactions"
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_01/crypto-fundamentals_01_inline_analogy.png)
+
 Picture two ways to get a snack:
 
 **Option A (Bank Teller):** Walk up to a counter. Fill out a form. Show your ID. Wait for someone to check your information. Wait for them to get approval. Wait while they process your request. Finally receive your snack. Come back Monday if you arrive after 5 PM.

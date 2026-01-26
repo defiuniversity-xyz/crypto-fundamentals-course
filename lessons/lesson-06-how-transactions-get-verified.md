@@ -7,6 +7,7 @@ description: "Understanding consensus mechanisms without the technical complexit
 ---
 
 # How Transactions Get Verified
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_06/crypto-fundamentals_06_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding consensus mechanisms without the technical complexit
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_06/crypto-fundamentals_06_inline_analogy.png)
+
 Imagine you're signing an important contract. Instead of one notary, you have 1,000 independent notaries who all:
 - Watch you sign
 - Check that your signature is valid
@@ -34,6 +36,7 @@ This is how blockchain verification works. Many independent parties (called vali
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_06/crypto-fundamentals_06_infographic.png)
+
 When you send cryptocurrency, validators verify:
 
 **Do you have enough?** They check your address's balance in the blockchain history. If you're trying to send 5 BTC but only have 2 BTC, the transaction is rejected.

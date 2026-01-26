@@ -7,6 +7,7 @@ description: "Understanding crypto wallets as key managers, not money holders"
 ---
 
 # What is a Crypto Wallet?
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_09/crypto-fundamentals_09_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding crypto wallets as key managers, not money holders"
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_09/crypto-fundamentals_09_inline_analogy.png)
+
 Imagine a very special mailbox:
 
 - Anyone in the world can put mail in (if they know your address)
@@ -35,6 +37,7 @@ Your actual cryptocurrency never "moves" into your wallet. It stays on the block
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_09/crypto-fundamentals_09_infographic.png)
+
 A crypto wallet contains:
 
 **Private Key(s):** The secret password that proves ownership. Whoever has this controls the crypto. This is what you must protect.

@@ -7,6 +7,7 @@ description: "Understanding the spectrum from convenient to ultra-secure"
 ---
 
 # Types of Wallets
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_12/crypto-fundamentals_12_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding the spectrum from convenient to ultra-secure"
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_12/crypto-fundamentals_12_inline_analogy.png)
+
 For storing cash, you might use:
 
 **Pocket wallet:** Convenient. Always with you. But limited capacity and more vulnerable to theft or loss.
@@ -113,6 +115,7 @@ Private key printed on paper, stored physically.
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_12/crypto-fundamentals_12_infographic.png)
+
 From most convenient to most secure:
 
 ```

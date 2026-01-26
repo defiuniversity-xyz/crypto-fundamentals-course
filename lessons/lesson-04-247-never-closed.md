@@ -7,6 +7,7 @@ description: "How cryptocurrency operates continuously without banking hours or 
 ---
 
 # 24/7 Never Closed
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_04/crypto-fundamentals_04_header.png)
 
 
@@ -18,6 +19,7 @@ description: "How cryptocurrency operates continuously without banking hours or 
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_04/crypto-fundamentals_04_inline_analogy.png)
+
 Imagine an ATM that:
 - Works at 3 AM on a Tuesday
 - Works on Christmas Day

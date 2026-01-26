@@ -7,6 +7,7 @@ description: "Understanding why multiple blockchains exist and how they differ"
 ---
 
 # Different Blockchains Explained
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_08/crypto-fundamentals_08_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding why multiple blockchains exist and how they differ"
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_08/crypto-fundamentals_08_inline_analogy.png)
+
 Imagine three highways:
 
 **Highway A (Interstate):** Extremely secure, well-maintained, but has toll booths causing slow-downs during rush hour. Best for valuable cargo that needs maximum protection.
@@ -85,6 +87,7 @@ Blockchains work similarly. There's no "best" highway—it depends on what you'r
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_08/crypto-fundamentals_08_infographic.png)
+
 There's a common saying in blockchain: "Pick two of three: Security, Decentralization, Scalability."
 
 **Security:** How hard is it to attack or manipulate?

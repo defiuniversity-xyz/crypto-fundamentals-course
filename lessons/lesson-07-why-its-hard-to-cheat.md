@@ -7,6 +7,7 @@ description: "Understanding the security guarantees that make blockchain trustwo
 ---
 
 # Why It's Hard to Cheat
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_07/crypto-fundamentals_07_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding the security guarantees that make blockchain trustwo
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_07/crypto-fundamentals_07_inline_analogy.png)
+
 Imagine a completed 10,000-piece puzzle displayed in a public square. Everyone has a photo of what the completed puzzle looks like.
 
 Now try to secretly replace one piece with a different one. What happens?
@@ -37,6 +39,7 @@ To successfully cheat, you'd need to rebuild every puzzle piece from the changed
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_07/crypto-fundamentals_07_infographic.png)
+
 A hash is a digital fingerprint created by running data through a mathematical function:
 
 **Input:** "Send 5 BTC from Alice to Bob"

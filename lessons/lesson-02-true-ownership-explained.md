@@ -7,6 +7,7 @@ description: "Understanding the difference between custodial and self-custodial 
 ---
 
 # True Ownership Explained
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_02/crypto-fundamentals_02_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding the difference between custodial and self-custodial 
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_02/crypto-fundamentals_02_inline_analogy.png)
+
 Imagine two scenarios:
 
 **Scenario A:** You have $100 cash in your pocket. It's yours. You can spend it, give it away, or hide it under your mattress. No one can stop you.
@@ -83,6 +85,7 @@ True crypto ownership means:
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_02/crypto-fundamentals_02_infographic.png)
+
 True ownership shifts responsibility from institutions to you:
 
 | Traditional Finance | Self-Custody Crypto |

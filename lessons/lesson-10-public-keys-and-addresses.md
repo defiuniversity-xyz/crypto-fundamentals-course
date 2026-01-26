@@ -7,6 +7,7 @@ description: "Understanding the 'email address' of cryptocurrency"
 ---
 
 # Public Keys and Addresses
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_10/crypto-fundamentals_10_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding the 'email address' of cryptocurrency"
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_10/crypto-fundamentals_10_inline_analogy.png)
+
 Your email has two components:
 
 **Email address (e.g., you@gmail.com):**
@@ -73,6 +75,7 @@ The format tells you what blockchain the address belongs to. Sending to the wron
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_10/crypto-fundamentals_10_infographic.png)
+
 The security of crypto relies on one-way mathematical functions:
 
 ```

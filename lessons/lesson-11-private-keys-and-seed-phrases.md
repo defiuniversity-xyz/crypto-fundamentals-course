@@ -7,6 +7,7 @@ description: "Understanding the master key to all your crypto"
 ---
 
 # Private Keys and Seed Phrases
+
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_11/crypto-fundamentals_11_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding the master key to all your crypto"
 
 
 ![Inline Analogy](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_11/crypto-fundamentals_11_inline_analogy.png)
+
 Imagine you have an apartment, a car, a safe deposit box, and a storage unit. Instead of four separate keys, you have one master key that opens all of them.
 
 **Benefits:** One key to protect. Easy to manage.
@@ -52,6 +54,7 @@ These words are generated randomly when you create a new wallet. They encode a l
 
 
 ![Infographic](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_11/crypto-fundamentals_11_infographic.png)
+
 How everything connects:
 
 **Seed Phrase**
