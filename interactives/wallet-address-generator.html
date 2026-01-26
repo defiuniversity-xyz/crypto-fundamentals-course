@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Address Generator Demo | DeFi University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+        const firebaseConfig = {
+            apiKey: "AIzaSyDuGdDF6jYPcZbQTpbGZPwnl3Qynr-LMWc",
+            authDomain: "defi-university-prod.firebaseapp.com",
+            projectId: "defi-university-prod",
+            storageBucket: "defi-university-prod.firebasestorage.app",
+            messagingSenderId: "309871336262",
+            appId: "1:309871336262:web:d2dc4be5729ac1d5a6a347"
+        };
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        let userToken = null;
+        let tracked = false;
+
+        onAuthStateChanged(auth, async (user) => {
+            const loginPrompt = document.getElementById('login-prompt');
+            const toolContainer = document.getElementById('tool-container');
+            const loadingState = document.getElementById('loading-state');
+            if (user) {
+                userToken = await user.getIdToken();
+                if (loginPrompt) loginPrompt.classList.add('hidden');
+                if (loadingState) loadingState.classList.add('hidden');
+                if (toolContainer) toolContainer.classList.remove('hidden');
+            } else {
+                if (loadingState) loadingState.classList.add('hidden');
+                if (loginPrompt) loginPrompt.classList.remove('hidden');
+                if (toolContainer) toolContainer.classList.add('hidden');
+                const currentUrl = encodeURIComponent(window.location.href);
+                const loginLink = document.querySelector('#login-prompt a');
+                if (loginLink) loginLink.href = `/login.html?redirect=${currentUrl}`;
+            }
+        });
+
+        window.trackInteraction = async function() {
+            if (!tracked && userToken) {
+                tracked = true;
+                try {
+                    const response = await fetch('https://api.defiuniversity.xyz/api/progress/interaction', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${userToken}` },
+                        body: JSON.stringify({ courseId: 'crypto-fundamentals', interactionId: 'wallet-address-generator', type: 'generator' })
+                    });
+                    if (response.ok) {
+                        const badge = document.getElementById('points-badge');
+                        if (badge) { badge.classList.remove('hidden'); setTimeout(() => badge.classList.add('hidden'), 2500); }
+                    }
+                } catch (e) { console.error('Tracking error:', e); tracked = false; }
+            }
+        };
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; }
+        h1, h2, h3, h4, .brand-font { font-family: 'Space Grotesk', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-neutral-900 min-h-screen p-4 md:p-8">
+    <div id="loading-state" class="flex items-center justify-center min-h-[400px]">
+        <div class="text-center">
+            <div class="w-8 h-8 border-2 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+            <p class="text-neutral-500">Loading tool...</p>
+        </div>
+    </div>
+
+    <div id="login-prompt" class="hidden max-w-md mx-auto text-center py-12">
+        <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-blue-600"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        </div>
+        <h2 class="text-xl font-semibold text-neutral-900 mb-2 brand-font">Sign in Required</h2>
+        <p class="text-neutral-500 mb-6">Please sign in to use this interactive tool and earn points.</p>
+        <a href="/login.html" class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-md shadow-blue-600/20">Sign In</a>
+    </div>
+
+    <div id="tool-container" class="hidden max-w-2xl mx-auto">
+        <div id="points-badge" class="hidden fixed top-4 right-4 bg-green-50 border border-green-200 text-green-600 px-4 py-2 rounded-full text-sm font-semibold z-50">+25 points earned!</div>
+        
+        <div class="text-center mb-8">
+            <h1 class="text-2xl md:text-3xl font-semibold text-neutral-900 brand-font mb-2">Wallet Address Generator (Demo)</h1>
+            <p class="text-neutral-500">See how wallet addresses are generated from private keys</p>
+        </div>
+
+        <div class="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
+            <p class="text-sm text-red-700"><strong>⚠️ Educational Demo Only!</strong> These are simulated addresses. Never use demo tools to generate real wallets - use official wallet software.</p>
+        </div>
+
+        <div class="bg-white border border-neutral-200 rounded-xl p-6 shadow-sm space-y-6">
+            <div>
+                <label class="block text-sm font-medium text-neutral-700 mb-2">Select Blockchain</label>
+                <select id="chain" onchange="updateFormat()" class="w-full px-4 py-3 border border-neutral-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    <option value="ethereum">Ethereum (ETH)</option>
+                    <option value="bitcoin">Bitcoin (BTC)</option>
+                    <option value="solana">Solana (SOL)</option>
+                </select>
+            </div>
+
+            <button onclick="generateWallet()" class="w-full px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-md shadow-blue-600/20">🔑 Generate Demo Wallet</button>
+
+            <div id="results" class="hidden space-y-4">
+                <div class="bg-red-50 border border-red-200 rounded-lg p-4">
+                    <p class="text-sm font-medium text-red-700 mb-2">🔐 Private Key (NEVER share this!)</p>
+                    <p id="private-key" class="font-mono text-xs text-red-600 break-all"></p>
+                    <p class="text-xs text-red-500 mt-2">This is the master secret. Anyone with this can control your funds.</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <p class="text-sm font-medium text-blue-700 mb-2">📬 Public Address (Safe to share)</p>
+                    <p id="public-address" class="font-mono text-xs text-blue-600 break-all"></p>
+                    <p class="text-xs text-blue-500 mt-2">Share this to receive crypto. It's derived from the private key mathematically.</p>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <p class="text-sm font-medium text-green-700 mb-2">📝 Address Format Info</p>
+                    <p id="format-info" class="text-sm text-green-600"></p>
+                </div>
+            </div>
+
+            <div class="bg-neutral-50 border border-neutral-200 rounded-lg p-4">
+                <p class="text-sm font-medium text-neutral-700 mb-2">How It Works</p>
+                <div class="flex items-center gap-2 text-xs text-neutral-600 flex-wrap">
+                    <span class="bg-red-100 px-2 py-1 rounded">Private Key</span>
+                    <span>→</span>
+                    <span class="bg-purple-100 px-2 py-1 rounded">Cryptographic Magic</span>
+                    <span>→</span>
+                    <span class="bg-blue-100 px-2 py-1 rounded">Public Key</span>
+                    <span>→</span>
+                    <span class="bg-green-100 px-2 py-1 rounded">Address</span>
+                </div>
+                <p class="text-xs text-neutral-500 mt-2">The math is one-way: you can derive the address from the private key, but never the reverse.</p>
+            </div>
+        </div>
+
+        <div class="mt-6 bg-amber-50 border border-amber-200 rounded-lg p-4">
+            <p class="text-sm font-medium text-amber-700 mb-1">Key Insight</p>
+            <p class="text-sm text-amber-600">Your private key is randomly generated and has billions of billions of possible combinations - making it impossible to guess. The public address is mathematically derived from it. This asymmetric cryptography is what makes crypto wallets secure!</p>
+        </div>
+    </div>
+
+    <script>
+        const formats = {
+            ethereum: {
+                prefix: '0x',
+                length: 40,
+                chars: '0123456789abcdef',
+                info: 'Ethereum addresses start with "0x" and have 40 hexadecimal characters. They\'re the same across all EVM chains (Polygon, Arbitrum, etc).'
+            },
+            bitcoin: {
+                prefix: '1',
+                length: 33,
+                chars: '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz',
+                info: 'Bitcoin addresses traditionally start with "1" or "3". Newer SegWit addresses start with "bc1". They use Base58 encoding (no 0, O, I, l to avoid confusion).'
+            },
+            solana: {
+                prefix: '',
+                length: 44,
+                chars: '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz',
+                info: 'Solana addresses are 44 characters using Base58 encoding. They don\'t have a standard prefix like Ethereum.'
+            }
+        };
+
+        function generateWallet() {
+            const chain = document.getElementById('chain').value;
+            const format = formats[chain];
+
+            // Generate simulated private key (64 hex chars)
+            let privateKey = '';
+            const hexChars = '0123456789abcdef';
+            for (let i = 0; i < 64; i++) {
+                privateKey += hexChars.charAt(Math.floor(Math.random() * hexChars.length));
+            }
+
+            // Generate simulated public address
+            let address = format.prefix;
+            for (let i = 0; i < format.length; i++) {
+                address += format.chars.charAt(Math.floor(Math.random() * format.chars.length));
+            }
+
+            document.getElementById('private-key').textContent = privateKey;
+            document.getElementById('public-address').textContent = address;
+            document.getElementById('format-info').textContent = format.info;
+            document.getElementById('results').classList.remove('hidden');
+            
+            window.trackInteraction();
+        }
+
+        function updateFormat() {
+            document.getElementById('results').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>

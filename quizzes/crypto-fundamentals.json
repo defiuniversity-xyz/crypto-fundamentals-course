@@ -1,0 +1,579 @@
+{
+  "courseId": "crypto-fundamentals",
+  "courseName": "Crypto Fundamentals",
+  "modules": [
+    {
+      "moduleId": "module-01",
+      "moduleNumber": 1,
+      "title": "What Makes Crypto Different",
+      "description": "Understanding the key differences: no middleman, global access, and true ownership",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m1-q1",
+          "question": "What is the most important difference between sending Bitcoin and sending money through a bank?",
+          "options": [
+            {"id": "a", "text": "Bitcoin is faster"},
+            {"id": "b", "text": "Bitcoin doesn't require a bank or middleman to approve the transaction"},
+            {"id": "c", "text": "Bitcoin is more colorful"},
+            {"id": "d", "text": "Banks don't work on weekends but Bitcoin does"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "The revolutionary aspect of Bitcoin and cryptocurrency is that you can send value directly to another person without needing a bank, PayPal, or any company in the middle to approve or process it. It's peer-to-peer."
+        },
+        {
+          "id": "m1-q2",
+          "question": "When you have money in a traditional bank account, who actually controls it?",
+          "options": [
+            {"id": "a", "text": "You control it completely"},
+            {"id": "b", "text": "The bank controls it and gives you access according to their rules"},
+            {"id": "c", "text": "The government controls it"},
+            {"id": "d", "text": "No one controls it - it's in a vault"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Your bank balance is the bank's promise to give you money. They can freeze your account, set withdrawal limits, or even fail. You're asking permission to use 'your' money. With crypto, you hold the actual asset."
+        },
+        {
+          "id": "m1-q3",
+          "question": "What does it mean that cryptocurrency is 'permissionless'?",
+          "options": [
+            {"id": "a", "text": "You don't need to be polite to use it"},
+            {"id": "b", "text": "You can use it without asking anyone's approval - no account applications or credit checks"},
+            {"id": "c", "text": "It's free to use"},
+            {"id": "d", "text": "You can share your account with anyone"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Anyone with internet access can create a crypto wallet and start transacting immediately. No bank approval, no credit checks, no minimum balances, no discrimination based on where you live or who you are."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Why might someone in a country with unstable currency want to use cryptocurrency?",
+          "options": [
+            {"id": "a", "text": "Cryptocurrency is always stable"},
+            {"id": "b", "text": "To protect savings from local currency collapse and access global financial system"},
+            {"id": "c", "text": "It's a legal requirement"},
+            {"id": "d", "text": "Local banks don't exist in those countries"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "In countries with hyperinflation or capital controls, crypto offers a way to store value outside the local system and access global markets. It can be a lifeline when local currency rapidly loses value."
+        },
+        {
+          "id": "m1-q5",
+          "question": "What's the difference between owning Bitcoin and having a balance in your PayPal account?",
+          "options": [
+            {"id": "a", "text": "There is no meaningful difference"},
+            {"id": "b", "text": "Bitcoin is yours directly; PayPal balance is PayPal's promise to pay you"},
+            {"id": "c", "text": "PayPal is more secure"},
+            {"id": "d", "text": "Bitcoin requires internet; PayPal doesn't"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Your PayPal balance is an IOU - PayPal owes you that money. Bitcoin you hold in your own wallet is actually yours, like cash in your pocket. No company is in the middle promising to give it to you."
+        },
+        {
+          "id": "m1-q6",
+          "question": "What does 'censorship-resistant' mean for cryptocurrency?",
+          "options": [
+            {"id": "a", "text": "You can say anything you want on crypto websites"},
+            {"id": "b", "text": "No government or company can easily block or reverse your transactions"},
+            {"id": "c", "text": "Crypto websites can't be censored"},
+            {"id": "d", "text": "You don't need to use proper language"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Because there's no central authority, no single entity can block your transactions or freeze your funds. This is valuable for people in oppressive regimes, but also means criminal transactions are harder to stop."
+        },
+        {
+          "id": "m1-q7",
+          "question": "A person in Argentina wants to pay a freelancer in Philippines. Using traditional banking, this might take days and cost $30+ in fees. What does crypto enable?",
+          "options": [
+            {"id": "a", "text": "The same process but with different colors"},
+            {"id": "b", "text": "Direct payment in minutes with much lower fees, regardless of country borders"},
+            {"id": "c", "text": "Free payments with no fees ever"},
+            {"id": "d", "text": "Instant payments but only in Bitcoin"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Crypto treats all countries equally. There are no correspondent banks taking cuts or adding delays. A transaction from Argentina to Philippines costs the same and takes the same time as one across the street."
+        },
+        {
+          "id": "m1-q8",
+          "question": "What does it mean that cryptocurrency operates '24/7/365'?",
+          "options": [
+            {"id": "a", "text": "Customer support is always available"},
+            {"id": "b", "text": "The network never closes - you can send and receive any time, including holidays and weekends"},
+            {"id": "c", "text": "Prices change 24/7"},
+            {"id": "d", "text": "You must monitor it constantly"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Unlike banks that close on weekends and holidays, crypto networks run continuously. A transaction at 3 AM on Christmas works the same as 2 PM on a Tuesday. The network is always on."
+        },
+        {
+          "id": "m1-q9",
+          "question": "Why is there 'no single point of failure' in cryptocurrency networks?",
+          "options": [
+            {"id": "a", "text": "Because crypto never fails"},
+            {"id": "b", "text": "Because the network is run by thousands of computers worldwide - no one server can be shut down to stop it"},
+            {"id": "c", "text": "Because the government backs it up"},
+            {"id": "d", "text": "Because of excellent customer service"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Traditional systems have central servers - if they go down, everything stops. Crypto networks are distributed across thousands of computers globally. There's no headquarters to raid or server to crash."
+        },
+        {
+          "id": "m1-q10",
+          "question": "What is a 'peer-to-peer' transaction?",
+          "options": [
+            {"id": "a", "text": "A transaction between two banks"},
+            {"id": "b", "text": "A direct transaction between two people without any middleman in between"},
+            {"id": "c", "text": "A transaction between you and a company"},
+            {"id": "d", "text": "A group payment split between friends"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Peer-to-peer means person to person directly. When you hand cash to a friend, that's peer-to-peer. Crypto enables this digitally - your value goes directly to them without passing through a bank or company."
+        },
+        {
+          "id": "m1-q11",
+          "question": "What happens to your crypto if the company where you bought it goes bankrupt?",
+          "options": [
+            {"id": "a", "text": "You always lose everything"},
+            {"id": "b", "text": "If you moved it to your own wallet, it's safe. If you left it on the exchange, you might lose it."},
+            {"id": "c", "text": "The government will reimburse you"},
+            {"id": "d", "text": "Crypto can't be lost"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "This is a crucial lesson: 'Not your keys, not your coins.' If you keep crypto in your own wallet (with your own keys), it's truly yours. If you leave it on an exchange, you're trusting that company - and companies can fail."
+        },
+        {
+          "id": "m1-q12",
+          "question": "What does 'self-custody' mean in cryptocurrency?",
+          "options": [
+            {"id": "a", "text": "Keeping yourself in jail"},
+            {"id": "b", "text": "Holding your own crypto keys so only you can access your funds"},
+            {"id": "c", "text": "Letting a company store your crypto for you"},
+            {"id": "d", "text": "Selling your crypto yourself"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Self-custody means you control the keys to your crypto - no exchange or company holds them for you. It's like holding physical cash versus having money in a bank. More responsibility, but also true ownership."
+        },
+        {
+          "id": "m1-q13",
+          "question": "Why is transparency an important feature of most cryptocurrencies?",
+          "options": [
+            {"id": "a", "text": "Because the coins are see-through"},
+            {"id": "b", "text": "Because all transactions are recorded publicly, so anyone can verify the rules are being followed"},
+            {"id": "c", "text": "Because you can see your balance"},
+            {"id": "d", "text": "Because the code is written in clear language"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Most crypto transactions are publicly visible on the blockchain. Anyone can verify that no one is cheating - no hidden money printing, no secret transactions. This transparency builds trust without requiring trust in a specific company."
+        },
+        {
+          "id": "m1-q14",
+          "question": "What is a potential downside of having no middleman in crypto transactions?",
+          "options": [
+            {"id": "a", "text": "There are no downsides"},
+            {"id": "b", "text": "If you make a mistake (send to wrong address), no one can reverse it for you"},
+            {"id": "c", "text": "Transactions are too slow"},
+            {"id": "d", "text": "You have to use more electricity"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "With great power comes great responsibility. No middleman means no customer support to fix your mistakes. Send to the wrong address? Those funds may be gone forever. You must be careful because you're in full control."
+        },
+        {
+          "id": "m1-q15",
+          "question": "Compared to opening a bank account, what do you need to create a crypto wallet?",
+          "options": [
+            {"id": "a", "text": "Government ID, proof of address, and credit check"},
+            {"id": "b", "text": "Just a device with internet - you can create one in seconds with no personal info required"},
+            {"id": "c", "text": "A minimum deposit of $100"},
+            {"id": "d", "text": "Approval from an existing crypto user"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Creating a basic crypto wallet takes seconds and requires no personal information, no approval, no minimum balance. This is why crypto is 'permissionless' - the barrier to entry is nearly zero for anyone with internet access."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-02",
+      "moduleNumber": 2,
+      "title": "Blockchain Explained",
+      "description": "Understanding shared ledgers, verification, and immutable records",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m2-q1",
+          "question": "Imagine a shared Google Doc that everyone can read, additions require group approval, and nobody can delete past entries. What is this most similar to?",
+          "options": [
+            {"id": "a", "text": "A regular database"},
+            {"id": "b", "text": "A blockchain"},
+            {"id": "c", "text": "An email chain"},
+            {"id": "d", "text": "A social media post"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A blockchain is like a shared document that everyone can see, new entries need network agreement, and past entries can't be changed. It's a shared, verified, permanent record."
+        },
+        {
+          "id": "m2-q2",
+          "question": "What is a 'block' in a blockchain?",
+          "options": [
+            {"id": "a", "text": "A barrier that stops transactions"},
+            {"id": "b", "text": "A bundle of transactions that gets added to the record together"},
+            {"id": "c", "text": "A type of cryptocurrency"},
+            {"id": "d", "text": "A security feature that blocks hackers"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Think of a block as a page in a ledger book. Multiple transactions are bundled together into a block, verified, then permanently added to the chain of previous blocks. Hence, 'block-chain.'"
+        },
+        {
+          "id": "m2-q3",
+          "question": "Why is it called a 'chain' in blockchain?",
+          "options": [
+            {"id": "a", "text": "Because you can chain transactions together"},
+            {"id": "b", "text": "Because each new block is cryptographically linked to the previous block, forming a chain"},
+            {"id": "c", "text": "Because it was invented by someone named Chain"},
+            {"id": "d", "text": "Because it chains your computer to the network"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Each block contains a unique 'fingerprint' (hash) of the previous block. This links them together like chain links. If someone tries to alter an old block, the fingerprints won't match, and the tampering is obvious."
+        },
+        {
+          "id": "m2-q4",
+          "question": "What makes blockchain records 'immutable'?",
+          "options": [
+            {"id": "a", "text": "They're stored on special unbreakable hard drives"},
+            {"id": "b", "text": "Changing old records would break the chain links, and thousands of computers would reject the change"},
+            {"id": "c", "text": "A powerful company protects them"},
+            {"id": "d", "text": "They're not actually immutable - anyone can change them"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Immutable means unchangeable. Because each block links to the previous one, altering any old block would require re-doing all subsequent blocks while outpacing the entire network. Practically impossible, making records permanent."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Who keeps copies of the entire blockchain?",
+          "options": [
+            {"id": "a", "text": "Only the cryptocurrency company headquarters"},
+            {"id": "b", "text": "Thousands of computers around the world, run by different people"},
+            {"id": "c", "text": "Government data centers"},
+            {"id": "d", "text": "Just one very secure server"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "The blockchain is duplicated across thousands of computers (nodes) worldwide. There's no central server to hack or shut down. Even if many computers go offline, the network continues because others have complete copies."
+        },
+        {
+          "id": "m2-q6",
+          "question": "How does the network agree on which transactions are valid?",
+          "options": [
+            {"id": "a", "text": "A CEO approves each transaction"},
+            {"id": "b", "text": "Through consensus - computers follow rules to agree, without needing to trust each other"},
+            {"id": "c", "text": "By voting on social media"},
+            {"id": "d", "text": "The first computer to see it decides"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Consensus mechanisms (like Proof of Work or Proof of Stake) let computers agree on valid transactions without trusting each other. They follow rules built into the software, and cheaters are rejected automatically."
+        },
+        {
+          "id": "m2-q7",
+          "question": "What is a 'hash' in simple terms?",
+          "options": [
+            {"id": "a", "text": "A type of breakfast food"},
+            {"id": "b", "text": "A unique digital fingerprint created from data - even tiny changes produce completely different fingerprints"},
+            {"id": "c", "text": "A password"},
+            {"id": "d", "text": "A hash mark (#) symbol"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A hash is like a digital fingerprint. Input any data, and you get a unique string of characters. Change even one letter, and you get a completely different hash. This makes tampering instantly detectable."
+        },
+        {
+          "id": "m2-q8",
+          "question": "If 5,000 computers have copies of a blockchain and someone tries to alter one copy, what happens?",
+          "options": [
+            {"id": "a", "text": "All copies change too"},
+            {"id": "b", "text": "The altered copy is rejected because it doesn't match the other 4,999 copies"},
+            {"id": "c", "text": "The network shuts down"},
+            {"id": "d", "text": "Nothing - alterations are accepted"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "The network constantly checks copies against each other. One altered copy would be outvoted by thousands of legitimate copies. To successfully alter the blockchain, you'd need to control most of the network - extremely difficult."
+        },
+        {
+          "id": "m2-q9",
+          "question": "Why is blockchain often described as 'trustless'?",
+          "options": [
+            {"id": "a", "text": "Because you can't trust anyone using it"},
+            {"id": "b", "text": "Because you don't need to trust any single person or company - the system's rules enforce honesty"},
+            {"id": "c", "text": "Because it's not trustworthy"},
+            {"id": "d", "text": "Because users are anonymous"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "'Trustless' is counterintuitive but positive. It means you don't need to trust a specific bank or company. The math and code enforce the rules. Trust is placed in the transparent system, not in any individual."
+        },
+        {
+          "id": "m2-q10",
+          "question": "What is a 'node' in a blockchain network?",
+          "options": [
+            {"id": "a", "text": "A type of cryptocurrency coin"},
+            {"id": "b", "text": "A computer that stores a copy of the blockchain and helps verify transactions"},
+            {"id": "c", "text": "A knot in the network cables"},
+            {"id": "d", "text": "A checkpoint where you must pay fees"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A node is any computer running the blockchain software. Some nodes store the full history, others just validate transactions. Together, they form the decentralized network that keeps the blockchain running and secure."
+        },
+        {
+          "id": "m2-q11",
+          "question": "What is 'decentralization' in blockchain?",
+          "options": [
+            {"id": "a", "text": "Having one very powerful central computer"},
+            {"id": "b", "text": "Spreading control and data across many computers so no single entity has power over the system"},
+            {"id": "c", "text": "Moving blockchain operations to different countries"},
+            {"id": "d", "text": "Using decentralized office buildings"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Decentralization means no single company, person, or government controls the network. Power is distributed among many participants. This makes the system resistant to censorship, failure, and corruption."
+        },
+        {
+          "id": "m2-q12",
+          "question": "How are new blocks added to a blockchain?",
+          "options": [
+            {"id": "a", "text": "A blockchain administrator adds them manually"},
+            {"id": "b", "text": "Computers compete or stake to earn the right to add a block, then others verify it's valid"},
+            {"id": "c", "text": "Blocks are added automatically every second"},
+            {"id": "d", "text": "Users vote on which blocks to add"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Different blockchains use different methods (mining, staking), but generally computers compete for the right to add the next block. Once proposed, other nodes verify it follows the rules before accepting it."
+        },
+        {
+          "id": "m2-q13",
+          "question": "Can you see all transactions on most public blockchains?",
+          "options": [
+            {"id": "a", "text": "No, all transactions are completely private"},
+            {"id": "b", "text": "Yes, transactions are public - you can see amounts and addresses (though not names)"},
+            {"id": "c", "text": "Only law enforcement can see them"},
+            {"id": "d", "text": "Only the sender and receiver can see them"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Most blockchains (like Bitcoin, Ethereum) are publicly transparent. Anyone can see every transaction ever made. You see addresses (long strings of characters) rather than names, providing pseudonymity but not full privacy."
+        },
+        {
+          "id": "m2-q14",
+          "question": "What does 'pseudonymous' mean in crypto?",
+          "options": [
+            {"id": "a", "text": "Completely anonymous"},
+            {"id": "b", "text": "Using a fake name that can potentially be linked back to you"},
+            {"id": "c", "text": "Using your real name"},
+            {"id": "d", "text": "A psychological term"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Your crypto address doesn't contain your name, but your transactions are public. If someone connects your address to your identity (through an exchange or other means), they can trace your history. It's privacy through obscurity, not true anonymity."
+        },
+        {
+          "id": "m2-q15",
+          "question": "Why is the 'genesis block' special?",
+          "options": [
+            {"id": "a", "text": "It contains the most Bitcoin"},
+            {"id": "b", "text": "It's the very first block in a blockchain - the starting point that all other blocks chain from"},
+            {"id": "c", "text": "It was created by a famous person"},
+            {"id": "d", "text": "It can be modified freely"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "The genesis block (Block 0 or Block 1) is the foundation of the entire blockchain. Every subsequent block ultimately links back to it. Bitcoin's genesis block famously contains a message from its creator referencing the 2008 financial crisis."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-03",
+      "moduleNumber": 3,
+      "title": "Wallets and Keys",
+      "description": "Understanding crypto wallets as keychains, the importance of seed phrases, and basic security",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m3-q1",
+          "question": "What is a crypto wallet, really?",
+          "options": [
+            {"id": "a", "text": "A physical device that stores coins"},
+            {"id": "b", "text": "Software that stores your keys and lets you send/receive cryptocurrency"},
+            {"id": "c", "text": "A bank account for cryptocurrency"},
+            {"id": "d", "text": "A folder on your computer with coin files"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A crypto wallet doesn't actually store coins - it stores your keys. Your crypto lives on the blockchain. The wallet just holds the keys that prove you own certain addresses and lets you sign transactions."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Think of a crypto wallet like a keychain. What do the keys unlock?",
+          "options": [
+            {"id": "a", "text": "A safe deposit box at the bank"},
+            {"id": "b", "text": "Addresses on the blockchain where your cryptocurrency is recorded"},
+            {"id": "c", "text": "Your computer"},
+            {"id": "d", "text": "The cryptocurrency company's headquarters"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Your crypto isn't 'in' your wallet - it's recorded on the blockchain at specific addresses. Your private keys prove you control those addresses, letting you 'unlock' and move the crypto recorded there."
+        },
+        {
+          "id": "m3-q3",
+          "question": "What is a 'private key'?",
+          "options": [
+            {"id": "a", "text": "Your password to log into exchanges"},
+            {"id": "b", "text": "A secret code that proves ownership and allows you to send your crypto"},
+            {"id": "c", "text": "Your wallet's public address"},
+            {"id": "d", "text": "A key that only works during private hours"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Your private key is like a master password that controls your crypto. Anyone with your private key can spend your funds. Never share it. Ever. It's the ultimate proof of ownership."
+        },
+        {
+          "id": "m3-q4",
+          "question": "What is a 'public key' or 'public address'?",
+          "options": [
+            {"id": "a", "text": "The same as your private key"},
+            {"id": "b", "text": "An address you can safely share so others can send you crypto"},
+            {"id": "c", "text": "A key that everyone can use to access your wallet"},
+            {"id": "d", "text": "Your username on the blockchain"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Your public address is like your email address - safe to share so people can send you things. It's mathematically derived from your private key, but knowing the public address doesn't reveal the private key."
+        },
+        {
+          "id": "m3-q5",
+          "question": "What is a 'seed phrase' (also called recovery phrase)?",
+          "options": [
+            {"id": "a", "text": "A password hint"},
+            {"id": "b", "text": "A list of 12-24 random words that can restore your entire wallet"},
+            {"id": "c", "text": "A phrase you say to activate voice commands"},
+            {"id": "d", "text": "The name of your wallet"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A seed phrase is a human-readable backup of your private keys. These 12-24 words can regenerate your entire wallet on any device. Lose it and you lose access forever. Let someone see it and they can steal everything."
+        },
+        {
+          "id": "m3-q6",
+          "question": "Your phone breaks and your crypto wallet app is gone. What can you do if you have your seed phrase?",
+          "options": [
+            {"id": "a", "text": "Your crypto is lost forever"},
+            {"id": "b", "text": "Install a wallet on a new device and enter your seed phrase to restore access"},
+            {"id": "c", "text": "Contact customer support to restore your account"},
+            {"id": "d", "text": "Buy the same phone model"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "The seed phrase IS your wallet. The app is just a window to it. Enter your seed phrase into any compatible wallet app on any device, and you'll have full access to your funds. This is the power and risk of self-custody."
+        },
+        {
+          "id": "m3-q7",
+          "question": "Someone online asks for your seed phrase to 'verify your wallet' or 'give you free crypto.' What should you do?",
+          "options": [
+            {"id": "a", "text": "Share it - they're trying to help"},
+            {"id": "b", "text": "Never share it - this is a scam to steal your funds"},
+            {"id": "c", "text": "Share only a few words to be safe"},
+            {"id": "d", "text": "Ask them to share theirs first"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "NEVER share your seed phrase with anyone, ever. No legitimate service will ever ask for it. Anyone who asks is trying to steal your crypto. This is the most common scam in crypto."
+        },
+        {
+          "id": "m3-q8",
+          "question": "Where is the safest place to store your seed phrase?",
+          "options": [
+            {"id": "a", "text": "In a note on your phone"},
+            {"id": "b", "text": "Written on paper stored in a secure physical location, never digitally"},
+            {"id": "c", "text": "In your email drafts"},
+            {"id": "d", "text": "As a photo in your cloud storage"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Digital storage (phones, computers, cloud) can be hacked. Write your seed phrase on paper or metal, store it securely (like a safe), and never photograph it or type it into any website. Physical, offline security is best."
+        },
+        {
+          "id": "m3-q9",
+          "question": "What is a 'hot wallet'?",
+          "options": [
+            {"id": "a", "text": "A wallet that's trending and popular"},
+            {"id": "b", "text": "A wallet connected to the internet, like a phone app or browser extension"},
+            {"id": "c", "text": "A wallet that stores new cryptocurrencies"},
+            {"id": "d", "text": "A wallet with high fees"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Hot wallets are connected to the internet - convenient for frequent transactions but more vulnerable to hacking. Think of it like a spending wallet you carry daily. Good for smaller amounts you use regularly."
+        },
+        {
+          "id": "m3-q10",
+          "question": "What is a 'cold wallet' or 'hardware wallet'?",
+          "options": [
+            {"id": "a", "text": "A wallet stored in a refrigerator"},
+            {"id": "b", "text": "A physical device that stores keys offline, only connecting when needed"},
+            {"id": "c", "text": "A wallet for unpopular cryptocurrencies"},
+            {"id": "d", "text": "A wallet that doesn't work anymore"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Cold wallets keep your keys completely offline, away from hackers. You connect them only when making transactions. Think of it like a safe at home for valuables versus a wallet in your pocket. More secure for larger amounts."
+        },
+        {
+          "id": "m3-q11",
+          "question": "If you send crypto to the wrong address, can it be reversed?",
+          "options": [
+            {"id": "a", "text": "Yes, customer support can reverse it"},
+            {"id": "b", "text": "No, blockchain transactions are permanent - the crypto may be lost forever"},
+            {"id": "c", "text": "Yes, within 24 hours"},
+            {"id": "d", "text": "Yes, by paying a reversal fee"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "This is critical: crypto transactions are irreversible. There's no bank to call, no dispute process. If you send to the wrong address, that crypto is likely gone forever. Always double-check addresses before sending."
+        },
+        {
+          "id": "m3-q12",
+          "question": "Why should you always send a small test transaction first when using a new address?",
+          "options": [
+            {"id": "a", "text": "To pay lower fees"},
+            {"id": "b", "text": "To verify the address is correct before sending larger amounts"},
+            {"id": "c", "text": "To warm up the blockchain"},
+            {"id": "d", "text": "It's not necessary"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Sending a small amount first confirms the address works and goes where you expect. Losing $5 to a mistake is much better than losing $5,000. This simple habit prevents costly errors."
+        },
+        {
+          "id": "m3-q13",
+          "question": "What does 'Not your keys, not your coins' mean?",
+          "options": [
+            {"id": "a", "text": "You need physical keys to own crypto"},
+            {"id": "b", "text": "If you don't control your private keys (like on an exchange), you don't truly own the crypto"},
+            {"id": "c", "text": "Keys are more important than coins"},
+            {"id": "d", "text": "You should make copies of your keys"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "When your crypto is on an exchange, you're trusting them to give it back. You don't have the keys - they do. If they get hacked, go bankrupt, or freeze your account, you could lose access. Self-custody means true ownership."
+        },
+        {
+          "id": "m3-q14",
+          "question": "What is a 'wallet address' similar to?",
+          "options": [
+            {"id": "a", "text": "A password"},
+            {"id": "b", "text": "An email address - you share it to receive things"},
+            {"id": "c", "text": "A bank PIN"},
+            {"id": "d", "text": "A social security number"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A wallet address is like an email address: share it freely so people can send you crypto. It doesn't give them access to spend your funds. Your private key is like the password to your email - never share that."
+        },
+        {
+          "id": "m3-q15",
+          "question": "What is the biggest difference between forgetting a traditional password and losing your crypto seed phrase?",
+          "options": [
+            {"id": "a", "text": "There's no difference"},
+            {"id": "b", "text": "Traditional passwords can be reset; seed phrases cannot - lose it and your crypto is gone forever"},
+            {"id": "c", "text": "Seed phrases are easier to recover"},
+            {"id": "d", "text": "Passwords are more secure"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "There's no 'forgot password' in crypto. Your seed phrase is the only way to access your funds. No company controls your keys, which means no company can help you recover them. This is both the power and the danger of self-custody."
+        }
+      ]
+    }
+  ]
+}
