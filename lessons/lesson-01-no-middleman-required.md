@@ -1,3 +1,15 @@
+---
+module: 1
+lesson_number: 1
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-01/audio/lesson1-Replacing_Your_Bank_With_A_Vending_Machine.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-01/video/lesson1-The_Digital_Vending_Machine.mp4" %}
+
 # No Middleman Required
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_01/crypto-fundamentals_01_header.png)

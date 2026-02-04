@@ -1,3 +1,15 @@
+---
+module: 1
+lesson_number: 3
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-03/audio/lesson3-Finance_Without_Gatekeepers.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-03/video/lesson3-Permissionless_Finance.mp4" %}
+
 # Global and Permissionless
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_03/crypto-fundamentals_03_header.png)

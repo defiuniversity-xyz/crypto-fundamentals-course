@@ -1,3 +1,15 @@
+---
+module: 1
+lesson_number: 2
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-02/audio/lesson2-The_Terrifying_Reality_of_Being_Your_Own_Bank.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-02/video/lesson2-Crypto__Promise_vs_Possession.mp4" %}
+
 # True Ownership Explained
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_02/crypto-fundamentals_02_header.png)
