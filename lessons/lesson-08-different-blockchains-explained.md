@@ -1,3 +1,14 @@
+---
+module: 2
+lesson_number: 8
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-08/audio/lesson8-The_Bitcoin_Ethereum_and_Solana_Highway_Map.m4a" %}
+
+<!-- Video for lesson 8 not yet available -->
+
 # Different Blockchains Explained
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_08/crypto-fundamentals_08_header.png)

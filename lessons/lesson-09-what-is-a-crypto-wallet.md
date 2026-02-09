@@ -1,3 +1,15 @@
+---
+module: 3
+lesson_number: 9
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-09/audio/lesson9-Crypto_Wallets_Hold_Keys_Not_Money.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-09/video/lesson9-Demystifying_Crypto_Wallets.mp4" %}
+
 # What is a Crypto Wallet?
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_09/crypto-fundamentals_09_header.png)

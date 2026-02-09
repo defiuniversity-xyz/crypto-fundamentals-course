@@ -1,3 +1,15 @@
+---
+module: 3
+lesson_number: 11
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-11/audio/lesson11-Twelve_Words_That_Control_Your_Entire_Wealth.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-11/video/lesson11-The_Master_Key.mp4" %}
+
 # Private Keys and Seed Phrases
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_11/crypto-fundamentals_11_header.png)

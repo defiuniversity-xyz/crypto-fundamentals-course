@@ -1,3 +1,15 @@
+---
+module: 1
+lesson_number: 4
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-04/audio/lesson4-Why_Your_Money_Takes_the_Weekend_Off.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-04/video/lesson4-Crypto__Always_On.mp4" %}
+
 # 24/7 Never Closed
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_04/crypto-fundamentals_04_header.png)

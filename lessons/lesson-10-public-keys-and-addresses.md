@@ -1,3 +1,15 @@
+---
+module: 3
+lesson_number: 10
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-10/audio/lesson10-Your_Crypto_Address_Is_A_Glass_House.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-10/video/lesson10-What_is_a_Crypto_Address_.mp4" %}
+
 # Public Keys and Addresses
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_10/crypto-fundamentals_10_header.png)

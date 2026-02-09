@@ -1,3 +1,15 @@
+---
+module: 2
+lesson_number: 6
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-06/audio/lesson6-Replacing_The_Bank_Guard_With_The_Crowd.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-06/video/lesson6-How_Blockchains_Build_Trust.mp4" %}
+
 # How Transactions Get Verified
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_06/crypto-fundamentals_06_header.png)

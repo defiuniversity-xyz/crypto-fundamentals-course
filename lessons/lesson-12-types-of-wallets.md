@@ -1,3 +1,15 @@
+---
+module: 3
+lesson_number: 12
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-12/audio/lesson12-Crypto_Wallets_From_Pockets_To_Vaults.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-12/video/lesson12-The_Crypto_Wallet_Spectrum.mp4" %}
+
 # Types of Wallets
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_12/crypto-fundamentals_12_header.png)

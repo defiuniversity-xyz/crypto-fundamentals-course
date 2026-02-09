@@ -1,3 +1,15 @@
+---
+module: 2
+lesson_number: 7
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-07/audio/lesson7-Why_You_Can_t_Rewrite_Blockchain_History.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-07/video/lesson7-Why_Blockchains_Are_Immutable.mp4" %}
+
 # Why It's Hard to Cheat
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_07/crypto-fundamentals_07_header.png)

@@ -1,3 +1,15 @@
+---
+module: 2
+lesson_number: 5
+course: crypto-fundamentals
+---
+
+🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-05/audio/lesson5-Replacing_the_Gatekeeper_With_Math.m4a" %}
+
+🎬 Video Overview
+{% embed url="https://storage.googleapis.com/crypto-fundamentals-media/lesson-05/video/lesson5-Architecture_of_Shared_Trust.mp4" %}
+
 # What is a Blockchain?
 
 ![Header](https://storage.googleapis.com/crypto-fundamentals-media/images/lesson_05/crypto-fundamentals_05_header.png)

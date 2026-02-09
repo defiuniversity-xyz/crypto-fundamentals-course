@@ -1,0 +1,14 @@
+# Media files (hosted on GCS, not in git)
+*.mp4
+*.m4a
+*.mp3
+podcasts/
+videos/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
